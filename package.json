@@ -11,7 +11,7 @@
     "postinstall": "node ./ng-add-pug-loader.js",
     "dev:ssr": "ng run pugsetup:serve-ssr",
     "serve:ssr": "node dist/pugsetup/server/main.js",
-    "build:ssr": "ng build --prod base-href ./ && ng run pugsetup:server:production",
+    "build:ssr": "ng build --prod --base-href ./ && ng run pugsetup:server:production",
     "prerender": "ng run pugsetup:prerender"
   },
   "private": true,
