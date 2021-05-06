@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 declare const $: any;
-declare const alertMsg, alertMsg2;
+declare const alertMsg, alertMsg2 , jqueryFn;
 
 @Component({
   selector: 'app-about',
@@ -15,6 +15,7 @@ export class AboutComponent implements OnInit {
 
     alertMsg();
     alertMsg2();
+    jqueryFn();
   }
 
 }
